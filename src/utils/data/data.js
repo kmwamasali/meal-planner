@@ -26,9 +26,11 @@ const surveyData = {
     max:2500,
   },
 }
+const edamam_id = process.env.REACT_APP_EDAMAM_ID;
+const edamam_api_key = process.env.REACT_APP_EDAMAM_API_KEY
 const API = {
-  ID : "YOUR_EDAMAM_ID",
-  KEY : "YOUR_EDAMAM_API_KEY",
+  ID : edamam_id,
+  KEY : edamam_api_key,
   URL : "https://api.edamam.com/search?",
 }
 export {
